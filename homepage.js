@@ -24,23 +24,50 @@ $(document).ready(function(){
 	$contact = $('#contact');
 	$projects = $('#projects');
 	$border = $('#borderBottom');
+	$resumeInfo = $('#resumeInfo');
+	$aboutInfo = $('#aboutInfo');
+	$projectInfo = $('#projectInfo');
+	$contactInfo = $('#contactInfo');
+
 	var currentTab = function(string){
 		if (document.getElementById(string).id == 'resume'){
 			
-			$border.css('left','6px');
+			$border.css('margin-left','0%');
+			$border.css('left','7px');
+			$resumeInfo.attr('highlighted','true');
+			$aboutInfo.attr('highlighted','false');
+			$projectInfo.attr('highlighted','false');
+			$contactInfo.attr('highlighted','false');
+
 		}
 		if (document.getElementById(string).id == 'about'){
 
-			$border.css('left','314px');
+			$border.css('margin-left','25%');
+			$border.css('left','3px');
+			$resumeInfo.attr('highlighted','false');
+			$aboutInfo.attr('highlighted','true');
+			$projectInfo.attr('highlighted','false');
+			$contactInfo.attr('highlighted','false');
 
-		}
-		if (document.getElementById(string).id == 'contact'){
-
-			$border.css('left','930px');
 		}
 		if (document.getElementById(string).id == 'projects'){
 
-			$border.css('left','622px');
+			$border.css('margin-left','50%');
+			$border.css('left','-1px');
+			$resumeInfo.attr('highlighted','false');
+			$aboutInfo.attr('highlighted','false');
+			$projectInfo.attr('highlighted','true');
+			$contactInfo.attr('highlighted','false');
+		}
+
+		if (document.getElementById(string).id == 'contact'){
+
+			$border.css('margin-left','75%');
+			$border.css('left','-5px');
+			$resumeInfo.attr('highlighted','false');
+			$aboutInfo.attr('highlighted','false');
+			$projectInfo.attr('highlighted','false');
+			$contactInfo.attr('highlighted','true');
 		}
 	}
 	$resume.on("click",function(){

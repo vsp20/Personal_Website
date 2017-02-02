@@ -83,11 +83,12 @@ body{
 		}
 #borderBottom{
 	position:relative;
-	height:10px;
-	width:23.7%;
+	height:20px;
+	width:23.8%;
 	background-color:#404040;
-	bottom:7px;
-	left:6px;
+	bottom:10px;
+	margin-left: 0%;
+	left:7px;
 }
 
 #mainInfo{
