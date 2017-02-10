@@ -2,6 +2,39 @@ body{
 	margin:0;
 
 }
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 51, 102, 0.89);
+    font-size:30px;
+    height:40px;
+}
+
+li{
+    display: inline;
+    width:100%;
+    text-align: right;
+    padding-left:20px;
+    padding-right: 20px;
+    color:white;
+    border-right: solid 1px;
+
+   // float:right;
+}
+li img{
+	height:40px;
+	float:right;
+}
+li 
+#contact_nav_bar{
+	right:0;
+}
+#about_nav{
+}
 .background{
 	background-image: linear-gradient(
 		rgba(0, 0, 6, 0.53), 
@@ -109,7 +142,7 @@ body{
 
 .aboutPage{
 	height:650px;
-	background-color: #003366;
+	background-color: rgba(0, 51, 102, 0.86);
 	color:white;
 
 }
@@ -133,6 +166,7 @@ body{
 	padding:30px;
 	padding-top:20px;
 	font-size: 25px;
+	color:rgba(255,255,255,.7);
 
 }
 
