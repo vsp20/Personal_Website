@@ -29,7 +29,9 @@ body{
 
 }
 #rotateBackground{
-	background-color: #2dfca4;
+	//background-color: #2dfca4;
+	//background-color: #F99400;
+	background-image: url('background4.jpg');
 	position: absolute;
 	width: 100%;
 	height: 150px;
@@ -115,15 +117,33 @@ body{
 			font-size: 20px;
 			padding-bottom: 10px;
 		}
+		#resumeInfo[highlighted='false']{
+		display:none;
+		}
 	#aboutInfo{
-		display:none;
+		font-size: 50px;
+		color:#7FFFD4;
 	}
+
+		#aboutInfo[highlighted='false']{
+			display:none;
+		}
+	
 	#projectInfo{
-		display:none;
+		font-size: 100px;
+		color:#7FFFD4;
 	}
+		#projectInfo[highlighted='false']{
+		display:none;
+		}
+
 	#contactInfo{
-		display:none;
-	}
+		font-size: 100px;
+		color:#7FFFD4;
+	}	
+		#contactInfo[highlighted='false']{
+			display:none;
+		}
 
 
 

@@ -1,0 +1,140 @@
+body{
+	margin:0;
+
+}
+.background{
+	background-image: linear-gradient(
+		rgba(0, 0, 6, 0.53), 
+		rgba(0, 0, 0, 0.72)
+		),
+
+		url('bostonSkyline.jpg');
+
+
+
+
+
+	height:900px;
+	width:100%;
+	background-size: cover;
+	text-align: center;
+	font-family:Verdana, Geneva, sans-serif;
+	 background-attachment: fixed;
+	// position: relative;
+ //    -webkit-box-shadow: 0 0 20px #333;
+ //    box-shadow: 0 0 20px #333;
+}
+	.description{
+		//line-height: 350px;
+		padding-top:100px;
+		color: white;
+		// font-family:Verdana, Geneva, sans-serif;
+		//	font-weight: 800;
+		font-size: 40px;
+		height:20%;
+
+	}
+		.info{
+			display: flex;
+			width:100%;
+			padding-top:40px;
+		}
+			#rotate{
+				width:50%;
+				text-align: left;
+				padding-right:10px;
+
+			}
+			#static{
+				width:50%;
+				text-align: right;
+				border-left:10px;
+				margin-left:10%;
+				margin-right:15px;
+			}
+
+	.background img{
+		height:30%;
+		border-radius: 50%;
+		//width:20%;
+	}
+	.categories{
+		display: flex;
+		color:white;
+		height:35%;
+		margin-left:10%;
+		margin-right:10%;
+		padding-top:40px;
+		
+
+	}
+		.category{
+			padding:10px;
+			padding-right: 30px;
+			padding-left:30px;
+			webkit-tansform
+		}
+		.tabBackground:hover{
+			font-size: 25px;
+		}
+		.title{
+			height:10%;
+			position: relative;
+			padding-top:30px;
+		}
+		.tabBackground{
+			height:100px;
+			// left:10px;
+			// right:10px;
+			//background-color:#FF7F50;
+			border-color: white;
+			border: solid 5px;	
+			border-radius:10px;
+			padding-top:10px;
+			background: rgb(34,34,34); /* for IE */
+  			background: rgba(34,34,34,0.75);
+  			-webkit-transition: .3s ease-out;
+		}
+		#about{
+			width:33%;
+			
+			
+		}
+		#portfolio{
+			width:33%;
+		}
+		#connect{
+			width:33%;
+		}
+
+.aboutPage{
+	height:650px;
+	background-color: #003366;
+	color:white;
+
+}
+#aboutTitle{
+	text-align: center;
+	padding-top:10px;
+	font-size:50px;
+	font-weight: bold;
+}
+.aboutPage img{
+	height:300px;
+	padding:50px;
+	float:left;
+	overflow: hidden;
+	padding-bottom:100px;
+}
+#text{
+	padding-top:30px;
+}
+.text{
+	padding:30px;
+	padding-top:20px;
+	font-size: 25px;
+
+}
+
+
+
