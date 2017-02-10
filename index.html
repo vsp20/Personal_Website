@@ -9,15 +9,15 @@
 	<body>
 		<div id=nav-bar>
 			<ul>
-				<li><span>Home</span></li>
-				<li id=about_nav><a href='#about'><span id=aboutClick>About</span></a></li>
-				<li><span>Portfolio</span></li>
-				<li id=contact_nav_bar><span>Contact Me</span></li>
+				<li><a href=#home><span>Home</span></a></li>
+				<li id=about_nav><a href='#aboutPage'><span id=aboutClick>About</span></a></li>
+				<li><a href=#portfolioPage><span>Portfolio</span></a></li>
+				<li id=contact_nav_bar><a href=#contactPage><span>Contact Me</span></a></li>
 				
 			</ul>
 		</div>
 		<div class=background>
-			<div class=description>
+			<div class=description id=home>
 				<div id=name> Vishal Patel</div>
 				<div class=info>
 					<div id=static> A Modern Day </div>
@@ -28,7 +28,7 @@
 			<div class=categories>
 				<div class=category id=about>
 					<div class=tabBackground id=aboutClick>
-						<div class=title>About</div>
+						<div class=title><a href="#about">About</a></div>
 					</div>
 				</div>
 				<div class=category id=portfolio>
@@ -44,9 +44,8 @@
 			</div>
 			
 		</div>
-		<div class=aboutPage>
-
-				<div id=aboutTitle>About</div>
+		<div class=aboutPage id=aboutPage>
+				<div class= tabTitle id=aboutTitle>About</div>
 				<hr width=5% id=aboutLine>
 				<div id=image>
 					<img src=CoverPic.jpg>
@@ -62,5 +61,16 @@
 				</div>
 
 			</div>	
+
+			<div class=portfolioPage id=portfolioPage>
+				<div id=portfolioTitle class=tabTitle>Portfolio</div>
+				<hr width=5% id=portfolioLine>
+				<div class=apps>
+					<div class=app id=Expedia></div>
+					<div class=app id=Testive></div>
+					<div class=app id=WeatherApp></div>
+					<div class=app id=Tedx></div>
+				</div>
+			</div>
 	</body>
 </html>

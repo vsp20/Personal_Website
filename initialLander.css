@@ -47,10 +47,6 @@ a{
 	text-decoration: none;
 }
 
-li img{
-	height:40px;
-	float:right;
-}
 
 .background{
 	background-image: linear-gradient(
@@ -162,13 +158,13 @@ li img{
 	height:650px;
 	background-color: rgba(0, 51, 102, 0.86);
 	color:white;
-
+	font-family:Verdana, Geneva, sans-serif;
 }
 #aboutTitle{
 	text-align: center;
 	padding-top:10px;
 	font-size:50px;
-	font-weight: bold;
+	//font-weight: bold;
 }
 .aboutPage img{
 	height:300px;
@@ -187,6 +183,31 @@ li img{
 	color:rgba(255,255,255,.7);
 
 }
+.portfolioPage{
+	height:650px;
+	background-image: linear-gradient(
+		rgba(0, 0, 6, 0.53), 
+		rgba(0, 0, 0, 0.72)
+		),
+
+		url('desk1.jpg');
+	height:900px;
+	width:100%;
+	background-size: cover;
+	text-align: center;
+	font-family:Verdana, Geneva, sans-serif;
+	 background-attachment: fixed;
+}
+#portfolioTitle{
+	text-align: center;
+	padding-top:10px;
+	font-size:50px;
+	//font-weight: bold;
+	color:white;
+	font-family:Verdana, Geneva, sans-serif;
+
+}
+
 
 
 
